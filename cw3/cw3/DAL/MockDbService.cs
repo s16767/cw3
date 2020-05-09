@@ -14,9 +14,9 @@ namespace cw3.DAL
         {
             _students = new List<Student>
             {
-                new Student{IdStudent=1, Firstname="Jan", Lastname="Kowalski"},
-                new Student{IdStudent=2, Firstname="Anna", Lastname="Malewski"},
-                new Student{IdStudent=3, Firstname="Andrzej", Lastname="Andrzejewicz"}
+                new Student{IndexNumber="s00001", Firstname="Jan", Lastname="Kowalski"},
+                new Student{IndexNumber="s00002", Firstname="Anna", Lastname="Malewski"},
+                new Student{IndexNumber="s00003", Firstname="Andrzej", Lastname="Andrzejewicz"}
             };
         }
 
